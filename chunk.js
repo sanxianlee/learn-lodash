@@ -9,8 +9,8 @@ import slice from './slice.js'
  * @参数 {Array} 需要被处理的数组。
  * @参数 {number} [size=1] 每个块的长度。
  * @返回值 {Array} 返回一个包含拆分块数组的新数组（相当于一个二维数组）。
- * @example
- *
+ * 
+ * @例子如下
  * chunk(['a', 'b', 'c', 'd'], 2)
  * // => [['a', 'b'], ['c', 'd']]
  *
