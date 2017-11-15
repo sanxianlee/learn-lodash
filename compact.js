@@ -21,7 +21,8 @@ function compact(array) {
     return result
   }
 
-  // 遍历数组 如果是 false、null、 0、""、undefined 和 NaN 等值都是 在if语句中 都是 false 只有 true 的才给返回数组插值
+  // 遍历数组 如果是 false、null、 0、""、undefined 和 NaN 等值都是 在if语句中 都是 false 
+  // 只有 true 的才给返回数组插值
   for (const value of array) {
     if (value) {
       result[resIndex++] = value
